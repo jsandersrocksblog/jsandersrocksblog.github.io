@@ -4,4 +4,4 @@ Your tenant may not be associated with a subscription but you need to open a cas
 
 For example you will see ‘jsandersrocksAAD’ is not associated with a subscription below:
 
-![Alt text](_assets/images/20-12-27Subscription.png)
+![Subcripton example](http://jsandersrocksblog.github.io/home/jsandersrocks/projects/jsandersblog/jsandersrocksblog.github.io/_assets/images/20-12-27Subscription.png)
