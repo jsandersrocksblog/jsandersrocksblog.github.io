@@ -11,9 +11,7 @@ categories:
 ---
  
 
-Using Easy Auth you might see this error:
-
-Failed to load <https://login.windows.net/>….: Response to preflight request doesn&#8217;t pass access control check: No &#8216;Access-Control-Allow-Origin&#8217; header is present on the requested resource. Origin &#8216;<https://sitename.azurewebsites.net>&#8216; is therefore not allowed access. If an opaque response serves your needs, set the request&#8217;s mode to &#8216;no-cors&#8217; to fetch the resource with CORS disabled.
+Using Easy Auth you might see this error: Failed to load <https://login.windows.net/>….: Response to preflight request doesn&#8217;t pass access control check: No &#8216;Access-Control-Allow-Origin&#8217; header is present on the requested resource. Origin &#8216;<https://sitename.azurewebsites.net>&#8216; is therefore not allowed access. If an opaque response serves your needs, set the request&#8217;s mode to &#8216;no-cors&#8217; to fetch the resource with CORS disabled.
 
 ## Cause
 
