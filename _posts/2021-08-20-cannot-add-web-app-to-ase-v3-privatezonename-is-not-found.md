@@ -21,4 +21,4 @@ The ASE V3 without the dedicated host does not use the Isolated SKU like ASE V2 
 
 
 
-[<img loading="lazy" width="653" height="596" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/08/image_thumb.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/08/image.png)
+[<img loading="lazy" width="653" height="596" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/08/image_thumb.png" border="0" />](/assets/images/2021/08/image.png)

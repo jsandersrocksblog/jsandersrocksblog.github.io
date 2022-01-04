@@ -17,7 +17,7 @@ This is a step by step walkthrough of how to add AAD Authentication to Static We
 
 
 
-   
+# 
 
 # Steps
 
@@ -31,13 +31,13 @@ Create an account for github.com if you do not have one.&nbsp; You will need it 
 
 Right Click on the step in 1. – a. and open in a new tab (otherwise you navigate away from the sample page
 
-[<img loading="lazy" width="693" height="297" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image.png)
+[<img loading="lazy" width="693" height="297" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb.png" border="0" />](/assets/images/2021/07/image.png)
 
 
 
 Per instuctions, name the repo (repository) **my-first-static-web-app** and make the repo public for simplicity**:**
 
-[<img loading="lazy" width="541" height="360" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-1.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-1.png)
+[<img loading="lazy" width="541" height="360" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-1.png" border="0" />](/assets/images/2021/07/image-1.png)
 
 Select **Create repository from template** on the github page and you repo is ready!
 
@@ -45,7 +45,7 @@ Leave the github repo open because we will need it later.
 
 Create the Azure Static Web app by following the rest of the Quickstart, but ensure you do NOT choose free for the Hosting Plan.&nbsp; Instead choose Standard so we can use authentication (if you forget this step you can change it later):&nbsp; 
 
-[<img loading="lazy" width="651" height="147" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-2.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-2.png)
+[<img loading="lazy" width="651" height="147" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-2.png" border="0" />](/assets/images/2021/07/image-2.png)
 
 [Quickstart: Building your first static web app with Azure Static Web Apps using the Azure portal | Microsoft Docs](https://docs.microsoft.com/en-us/azure/static-web-apps/get-started-portal?tabs=vanilla-javascript#create-a-static-web-app)
 
@@ -53,19 +53,19 @@ Follow the rest of the instructions to create and attach your app to your GitHub
 
 Note in the GitHub phase you need to authorize Azure Static Web Apps to connect to your repo:
 
-[<img loading="lazy" width="417" height="414" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-3.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-3.png)
+[<img loading="lazy" width="417" height="414" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-3.png" border="0" />](/assets/images/2021/07/image-3.png)
 
 Visit the site to ensure it works by clicking on the URL of the newly created app:
 
 Note that in this example, the site is not ready ‘We have not received any content…’&nbsp; and you need to wait for that activity to complete.
 
-[<img loading="lazy" width="685" height="245" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-4.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-4.png)
+[<img loading="lazy" width="685" height="245" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-4.png" border="0" />](/assets/images/2021/07/image-4.png)
 
 You can refresh the view and when that disappears click on the URL and you should see the site (it will just say Vanilla JavaScript App).
 
 **Side note &#8211;**&nbsp; When you make a change to the Repo you can see the progress in the actions tab.&nbsp; This is updating your linked Static Web App.&nbsp; If you don’t see changes you have made, this ‘Actions’ tab is where to go!
 
-[<img loading="lazy" width="854" height="231" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-5.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-5.png)
+[<img loading="lazy" width="854" height="231" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-5.png" border="0" />](/assets/images/2021/07/image-5.png)
 
 <font style="background-color: rgb(255, 255, 0);">COPY the URL for use in the next step in my case it is: <a title="https://white-mushroom-02b8dcc0f.azurestaticapps.net/" href="https://white-mushroom-02b8dcc0f.azurestaticapps.net/">https://white-mushroom-02b8dcc0f.azurestaticapps.net/</a></font>
 
@@ -73,19 +73,19 @@ You can refresh the view and when that disappears click on the URL and you shoul
 
 ## Create an AAD Application
 
-The next step is to create an app registration in AAD so open your Azure Active Directory in the Azure Portal [<img loading="lazy" width="63" height="63" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-6.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-6.png)
+The next step is to create an app registration in AAD so open your Azure Active Directory in the Azure Portal [<img loading="lazy" width="63" height="63" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-6.png" border="0" />](/assets/images/2021/07/image-6.png)
 
 Select ‘App registrations’ and ‘+ New registration’:
 
-[<img loading="lazy" width="287" height="342" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-7.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-7.png)
+[<img loading="lazy" width="287" height="342" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-7.png" border="0" />](/assets/images/2021/07/image-7.png)
 
 Give it a name and select this directory only and hit the ‘Register’ button:
 
-[<img loading="lazy" width="293" height="358" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-8.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-8.png)
+[<img loading="lazy" width="293" height="358" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-8.png" border="0" />](/assets/images/2021/07/image-8.png)
 
 Now in ‘Authentication’ choose ‘+Add a platform’ and choose ‘Web’
 
-[<img loading="lazy" width="301" height="221" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-9.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-9.png)
+[<img loading="lazy" width="301" height="221" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-9.png" border="0" />](/assets/images/2021/07/image-9.png)
 
 In this page we use the URL we copied for our web app above.&nbsp; Get that url and add /.auth/login/aad/callback to it.&nbsp; My Example: **https://white-mushroom-02b8dcc0f.azurestaticapps.net/.auth/login/aad/callback** 
 
@@ -93,19 +93,19 @@ Use this value as the Redirect URI.
 
 Also ensure you check the box ‘ID tokens (used for implicit and hybrid flows)’ and hit the ‘Configure’ button:
 
-[<img loading="lazy" width="450" height="479" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-10.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-10.png)
+[<img loading="lazy" width="450" height="479" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-10.png" border="0" />](/assets/images/2021/07/image-10.png)
 
 Now we need to create a secret so click on ‘Certificates and secrets’ and ‘+New client secret’
 
-[<img loading="lazy" width="452" height="262" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-11.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-11.png)
+[<img loading="lazy" width="452" height="262" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-11.png" border="0" />](/assets/images/2021/07/image-11.png)
 
 Set the description and expiration to whatever you want (expiration is how long the secret is good for) and <font style="background-color: rgb(255, 255, 0);">copy the ‘Value’</font> once it is created.&nbsp; We will use this later in an Application Setting we will create called ‘AADSecret’
 
-[<img loading="lazy" width="463" height="144" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-12.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-12.png)
+[<img loading="lazy" width="463" height="144" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-12.png" border="0" />](/assets/images/2021/07/image-12.png)
 
 We also need to **copy the ‘Application (client) ID’ and the ‘Directory (tenant) ID’ from the ‘Overview’ tab**.&nbsp; We will use the ‘Application (client) ID’ for an Application Setting we will create called ‘AADClientID’ and we will use the Directory id in the configuration file we will create later:
 
-[<img loading="lazy" width="468" height="161" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-13.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-13.png)
+[<img loading="lazy" width="468" height="161" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-13.png" border="0" />](/assets/images/2021/07/image-13.png)
 
 At this point you should have copied three values for use in the next step so feel free to note them below:
 
@@ -115,7 +115,7 @@ Directory id
 
 **Side note:**&nbsp; Doing all this should have created the following in the ‘API permissions’ tab:
 
-[<img loading="lazy" width="630" height="150" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-14.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-14.png)
+[<img loading="lazy" width="630" height="150" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-14.png" border="0" />](/assets/images/2021/07/image-14.png)
 
 ## 
 
@@ -125,7 +125,7 @@ We need to add the configuration file to the Static Web App repo so the applicat
 
 In your github repo add a file to the repo called ‘staticwebapp.config.json’.&nbsp; In the ‘ <> Code’ section choose ‘Add file’, ‘Create new file’:
 
-[<img loading="lazy" width="704" height="132" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-15.png" border="0" />](http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-15.png)
+[<img loading="lazy" width="704" height="132" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-15.png" border="0" />](/assets/images/2021/07/image-15.png)
 
 Use the name ‘staticwebapp.config.json’.&nbsp; Then copy and modify the code below and paste it into the file.&nbsp; You need to replace <font style="background-color: rgb(255, 255, 0);">DirectoryIDHERE</font> with the value you copied above (Directory (tenant) ID’ from the ‘Overview’ tab):
 
@@ -140,7 +140,7 @@ Use the name ‘staticwebapp.config.json’.&nbsp; Then copy and modify the code
 </p>
 
 <p>
-  <a href="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-16.png"><img loading="lazy" width="312" height="463" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-16.png" border="0" /></a>
+  <a href="/assets/images/2021/07/image-16.png"><img loading="lazy" width="312" height="463" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-16.png" border="0" /></a>
 </p>
 
 <p>
@@ -179,7 +179,7 @@ Use the name ‘staticwebapp.config.json’.&nbsp; Then copy and modify the code
   </p>
   
   <p>
-    <a href="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-17.png"><img loading="lazy" width="360" height="229" title="image" style="margin: 0px; display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-17.png" border="0" /></a>
+    <a href="/assets/images/2021/07/image-17.png"><img loading="lazy" width="360" height="229" title="image" style="margin: 0px; display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-17.png" border="0" /></a>
   </p>
   
   <p>
@@ -202,7 +202,7 @@ Use the name ‘staticwebapp.config.json’.&nbsp; Then copy and modify the code
   </p>
   
   <p>
-    <a href="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-18.png"><img loading="lazy" width="368" height="201" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-18.png" border="0" /></a>
+    <a href="/assets/images/2021/07/image-18.png"><img loading="lazy" width="368" height="201" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-18.png" border="0" /></a>
   </p>
   
   <p>
@@ -210,7 +210,7 @@ Use the name ‘staticwebapp.config.json’.&nbsp; Then copy and modify the code
   </p>
   
   <p>
-    <a href="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-19.png"><img loading="lazy" width="429" height="216" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-19.png" border="0" /></a>
+    <a href="/assets/images/2021/07/image-19.png"><img loading="lazy" width="429" height="216" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-19.png" border="0" /></a>
   </p>
   
   <p>
@@ -218,7 +218,7 @@ Use the name ‘staticwebapp.config.json’.&nbsp; Then copy and modify the code
   </p>
   
   <p>
-    <a href="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image-20.png"><img loading="lazy" width="397" height="327" title="image" style="display: inline; background-image: none;" alt="image" src="http://jsandersblog.azurewebsites.net/wp-content/uploads/2021/07/image_thumb-20.png" border="0" /></a>
+    <a href="/assets/images/2021/07/image-20.png"><img loading="lazy" width="397" height="327" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/07/image_thumb-20.png" border="0" /></a>
   </p>
   
   <h2>
