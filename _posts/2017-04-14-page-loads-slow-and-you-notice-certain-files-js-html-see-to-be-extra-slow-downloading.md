@@ -21,8 +21,6 @@ opengraph_tags:
 categories:
   - Uncategorized
 ---
-## Symptom
-
 You notice particular files (.js, .html and more) are downloading very slowly
 
 ## Cause

@@ -247,8 +247,6 @@ opengraph_tags:
 categories:
   - Uncategorized
 ---
-# Preview/Draft
-
 Sometimes I like to fire off information without making it pretty in hopes it will help someone struggling with an issue.&#160; So… I apologize up-front for the brevity of this post and promise to incorporate it into a larger troubleshooting blog when I get a chance to breathe<img class="wlEmoticon wlEmoticon-smile" alt="Smile" src="/assets/images/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/83/94/metablogapi/6866.wlEmoticon-smile_36F7A127.png" original-url="http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-00-83-94-metablogapi/6866.wlEmoticon_2D00_smile_5F00_36F7A127.png" /> 
 
 ## Issue
