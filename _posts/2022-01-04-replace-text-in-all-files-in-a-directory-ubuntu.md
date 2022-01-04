@@ -11,11 +11,11 @@ I navigated to the _posts directory and executed this sed command: sed -i -r 's|
 ## Breakdown
 - sed -i -r  (-i = inplace modify the file  -r = extended regex)
 
-- 's| (set separator for regex to '|' - necessary to choose something other than / since the URL contains these)
+- 's\| (set separator for regex to '\|' - necessary to choose something other than / since the URL contains these)
 
- - http://jsandersblog.azurewebsites.net/wp-content/uploads| (what to search for and separator)
+ - http://jsandersblog.azurewebsites.net/wp-content/uploads\| (what to search for and separator)
 
-- /assets/images| (what to replace the former string with and separator)
+- /assets/images\| (what to replace the former string with and separator)
 
 - g (replace globally-all occurences)
 
