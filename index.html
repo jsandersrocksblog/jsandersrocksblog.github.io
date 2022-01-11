@@ -1,7 +1,7 @@
 ---
 title: Posts
 ---
-<h2>Latest Posts</h2>
+
   <!-- {% for post in site.posts %}
 
       <h3 style="display: inline"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3> - <p style="display: inline">{{ post.date | date_to_string }}</p>
@@ -10,11 +10,27 @@ title: Posts
     
   {% endfor %} -->
   <!-- post list -->
+  {% if paginator.page == 1 %}
+  <h2>Latest Posts</h2>
+  {% else %}
+  <h2>Earlier Posts</h2>
+  {% endif %}
+
 {% for post in paginator.posts %}
-
-  <h3 style="display: inline"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3> - <p style="display: inline">{{ post.date | date_to_string }}</p>
+<div class="row">
+  <div class="col-md-8">
+  <h3 style="display: inline"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+  </div>
+  <div class="col-md-4">
+   - <p style="display: inline">{{ post.date | date_to_string }}</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
   {{ post.excerpt }}
-
+</div>
+</div>
+<br/>
 {% endfor %}
 
 <!-- pagination -->
