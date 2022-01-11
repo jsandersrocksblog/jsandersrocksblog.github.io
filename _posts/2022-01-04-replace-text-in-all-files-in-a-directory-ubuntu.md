@@ -25,3 +25,7 @@ I navigated to the _posts directory and executed this sed command: sed -i -r 's|
 To remove the Metadata inserted by Wordpress I used this command which removes the separators '---' and all the data between:
 
 sed  -i "/---/,/---/d" *.md
+
+To remove all leading whitespace in a file:
+
+sed -i '/\S/,$!d' *.md
