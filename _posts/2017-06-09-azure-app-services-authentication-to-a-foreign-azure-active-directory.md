@@ -1,28 +1,3 @@
----
-id: 2895
-title: Azure App Services authentication to a foreign Azure Active Directory
-date: 2017-06-09T14:15:13-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=2895
-permalink: /2017/06/09/azure-app-services-authentication-to-a-foreign-azure-active-directory/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Azure App Services authentication to a foreign Azure Active Directory" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/06/09/azure-app-services-authentication-to-a-foreign-azure-active-directory/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview You have some code you have created in your subscription and a customer wants to authenticate and use your application.&nbsp; You are not connected to any other Azure Active Directory authentication.&nbsp; This is bit of a contrived example but will give you some insight in to how Azure App Services authentication works. Setup Create..." />
-    <meta property="og:image" content="/assets/images/2017/06/capture20170609141746403_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Azure App Services authentication to a foreign Azure Active Directory" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/06/09/azure-app-services-authentication-to-a-foreign-azure-active-directory/" />
-    <meta name="twitter:description" content="Overview You have some code you have created in your subscription and a customer wants to authenticate and use your application.&nbsp; You are not connected to any other Azure Active Directory authentication.&nbsp; This is bit of a contrived example but will give you some insight in to how Azure App Services authentication works. Setup Create..." />
-    <meta name="twitter:image" content="/assets/images/2017/06/capture20170609141746403_thumb.png" />
-    
-categories:
-  - Uncategorized
----
 
 
 You have some code you have created in your subscription and a customer wants to authenticate and use your application.&nbsp; You are not connected to any other Azure Active Directory authentication.&nbsp; This is bit of a contrived example but will give you some insight in to how Azure App Services authentication works.

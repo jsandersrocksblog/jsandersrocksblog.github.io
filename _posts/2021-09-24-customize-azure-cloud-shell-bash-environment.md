@@ -1,14 +1,3 @@
----
-id: 5799
-title: Customize Azure Cloud Shell Bash Environment
-date: 2021-09-24T09:58:39-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5799
-permalink: /2021/09/24/customize-azure-cloud-shell-bash-environment/
-categories:
-  - Uncategorized
----
 I wanted to customize my Azure Cloud Shell Bash Environment to set the active subscription and define bash aliases at start up.&nbsp; I could not find a good reference so here is how to do some simple things.
 
 ## Bash file structure in Azure Cloud Shell

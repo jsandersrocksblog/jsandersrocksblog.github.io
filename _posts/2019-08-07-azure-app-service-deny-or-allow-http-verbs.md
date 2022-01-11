@@ -1,14 +1,3 @@
----
-id: 5549
-title: 'Azure App Service&ndash;Deny or Allow HTTP Verbs'
-date: 2019-08-07T11:57:54-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5549
-permalink: /2019/08/07/azure-app-service-deny-or-allow-http-verbs/
-categories:
-  - Uncategorized
----
 You may want to restrict what verbs you allow to your web apps in Azure App Services.&nbsp; The way you do this is really no different than how you would do this for these web servers on premise or in a VM!
 
 ## Windows based Web Apps

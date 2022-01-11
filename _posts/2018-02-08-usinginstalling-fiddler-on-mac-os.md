@@ -1,28 +1,3 @@
----
-id: 4455
-title: Using/Installing Fiddler on Mac OS
-date: 2018-02-08T16:57:40-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=4455
-permalink: /2018/02/08/usinginstalling-fiddler-on-mac-os/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Using/Installing Fiddler on Mac OS" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/02/08/usinginstalling-fiddler-on-mac-os/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview I could not find a good walkthrough so here is one for you.&nbsp; Disclaimer:&nbsp; This is on the latest OS and Latest version of Fiddler Beta Steps Install Mono – You can do this many ways but I wanted to do Xamarin development so I downloaded and installed Visual Studio for Mac and installed..." />
-    <meta property="og:image" content="/assets/images/2018/02/capture20180208162842248_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Using/Installing Fiddler on Mac OS" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/02/08/usinginstalling-fiddler-on-mac-os/" />
-    <meta name="twitter:description" content="Overview I could not find a good walkthrough so here is one for you.&nbsp; Disclaimer:&nbsp; This is on the latest OS and Latest version of Fiddler Beta Steps Install Mono – You can do this many ways but I wanted to do Xamarin development so I downloaded and installed Visual Studio for Mac and installed..." />
-    <meta name="twitter:image" content="/assets/images/2018/02/capture20180208162842248_thumb.png" />
-    
-categories:
-  - Uncategorized
----
 
 
 I could not find a good walkthrough so here is one for you.&nbsp; Disclaimer:&nbsp; This is on the latest OS and Latest version of Fiddler Beta

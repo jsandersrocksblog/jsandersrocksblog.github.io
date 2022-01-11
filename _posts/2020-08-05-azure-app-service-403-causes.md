@@ -1,14 +1,3 @@
----
-id: 5667
-title: 'Azure App Service&ndash;403 causes'
-date: 2020-08-05T12:42:39-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5667
-permalink: /2020/08/05/azure-app-service-403-causes/
-categories:
-  - Uncategorized
----
  
 
 There are a few reasons Azure App Services (Azure Web Apps, Azure Function Apps etc…) may get a 403 response.&nbsp; Other than the code itself returning this, Access Restrictions or IP Restrictions could be at play (and you can mitigate with this knowledge).

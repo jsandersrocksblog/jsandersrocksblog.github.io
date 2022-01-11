@@ -1,14 +1,3 @@
----
-id: 5402
-title: 'Test In Production: Specify slot and test with Custom Domain Name'
-date: 2019-03-14T10:08:51-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5402
-permalink: /2019/03/14/test-in-production-specify-slot-and-test-with-custom-domain-name/
-categories:
-  - Uncategorized
----
 You can use Deployment Slots and direct a percentage of the production traffic to a particular slot.&nbsp; If you want to test only that slot say with the custom Domain on the production slot and ensure you hit that slot, you need to add a Cookie called <font style="background-color: rgb(255, 255, 0);">x-ms-routing-name</font> and specify that slot I want to route to.&nbsp; In this example I am going to route to the <font style="background-color: rgb(255, 255, 0);">test</font> slot:
 
 Accept-Encoding: gzip, deflate, br  

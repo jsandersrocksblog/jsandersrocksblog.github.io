@@ -1,14 +1,3 @@
----
-id: 5740
-title: 'Cannot Add Web App to ASE V3&ndash; privateZoneName is not found'
-date: 2021-08-20T13:13:15-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5740
-permalink: /2021/08/20/cannot-add-web-app-to-ase-v3-privatezonename-is-not-found/
-categories:
-  - Uncategorized
----
  
 
 I’m a dork so… quick blog here for those of you that fall into this too.&nbsp; I created a new Azure App Service Environment (ASE) V3 and tried to add an App Service Plan and Web App to it and go the error “The template parameter ‘privateZoneName’ is not found”

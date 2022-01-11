@@ -1,28 +1,3 @@
----
-id: 3615
-title: 'Azure Web Apps for Containers&#8211;Simple Walkthrough of Node.JS app deployment'
-date: 2017-09-12T09:56:44-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=3615
-permalink: /2017/09/12/azure-web-apps-for-containers-simple-walkthrough-of-node-js-app-deployment/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Azure Web Apps for Containers&ndash;Simple Walkthrough of Node.JS app deployment" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/09/12/azure-web-apps-for-containers-simple-walkthrough-of-node-js-app-deployment/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview This is a super simple walkthrough to show how to use Git and push your app to Azure Web Apps for Containers.&nbsp; It will not persist your Git repo but is a super quick way to show how this is done and perhaps help you if you are having troubles getting your app configured!..." />
-    <meta property="og:image" content="/assets/images/2017/09/capture20170911135221921_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Azure Web Apps for Containers&ndash;Simple Walkthrough of Node.JS app deployment" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/09/12/azure-web-apps-for-containers-simple-walkthrough-of-node-js-app-deployment/" />
-    <meta name="twitter:description" content="Overview This is a super simple walkthrough to show how to use Git and push your app to Azure Web Apps for Containers.&nbsp; It will not persist your Git repo but is a super quick way to show how this is done and perhaps help you if you are having troubles getting your app configured!..." />
-    <meta name="twitter:image" content="/assets/images/2017/09/capture20170911135221921_thumb.png" />
-    
-categories:
-  - Uncategorized
----
  
 
 This is a super simple walkthrough to show how to use Git and push your app to Azure Web Apps for Containers.&nbsp; It will not persist your Git repo but is a super quick way to show how this is done and perhaps help you if you are having troubles getting your app configured!

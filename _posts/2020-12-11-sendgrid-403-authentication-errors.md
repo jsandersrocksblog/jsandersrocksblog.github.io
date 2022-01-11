@@ -1,14 +1,3 @@
----
-id: 5679
-title: SendGrid 403 authentication Errors
-date: 2020-12-11T09:24:23-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5679
-permalink: /2020/12/11/sendgrid-403-authentication-errors/
-categories:
-  - Uncategorized
----
 SendGrid &#8211; Stopped sending emails due to SendGrid changing authentication requirements for the Sender of the email
 
 ## Background

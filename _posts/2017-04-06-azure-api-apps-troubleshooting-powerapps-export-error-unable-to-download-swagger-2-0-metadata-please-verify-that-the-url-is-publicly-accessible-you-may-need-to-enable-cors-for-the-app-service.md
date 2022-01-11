@@ -1,28 +1,3 @@
----
-id: 2105
-title: 'Azure API Apps&#8211;Troubleshooting PowerApps Export error: Unable to download Swagger 2.0 metadata. Please verify that the URL is publicly accessible. You may need to enable CORS for the App Service portal extension located at'
-date: 2017-04-06T16:25:32-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=2105
-permalink: /2017/04/06/azure-api-apps-troubleshooting-powerapps-export-error-unable-to-download-swagger-2-0-metadata-please-verify-that-the-url-is-publicly-accessible-you-may-need-to-enable-cors-for-the-app-service/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Azure API Apps&ndash;Troubleshooting PowerApps Export error: Unable to download Swagger 2.0 metadata. Please verify that the URL is publicly accessible. You may need to enable CORS for the App Service portal extension located at" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/04/06/azure-api-apps-troubleshooting-powerapps-export-error-unable-to-download-swagger-2-0-metadata-please-verify-that-the-url-is-publicly-accessible-you-may-need-to-enable-cors-for-the-app-service/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview There is functionality in the Azure Portal that allows you to use the API definition of your Azure App Service and Export this through the “Export to PowerApps + Microsoft Flow” button in the API definition blade of your app ref: https://docs.microsoft.com/azure/app-service/app-service-export-api-to-powerapps-and-flow .&nbsp; If you get the error: “Unable to download Swagger 2.0 metadata...." />
-    <meta property="og:image" content="/assets/images/2017/04/capture20170406104837219_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Azure API Apps&ndash;Troubleshooting PowerApps Export error: Unable to download Swagger 2.0 metadata. Please verify that the URL is publicly accessible. You may need to enable CORS for the App Service portal extension located at" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/04/06/azure-api-apps-troubleshooting-powerapps-export-error-unable-to-download-swagger-2-0-metadata-please-verify-that-the-url-is-publicly-accessible-you-may-need-to-enable-cors-for-the-app-service/" />
-    <meta name="twitter:description" content="Overview There is functionality in the Azure Portal that allows you to use the API definition of your Azure App Service and Export this through the “Export to PowerApps + Microsoft Flow” button in the API definition blade of your app ref: https://docs.microsoft.com/azure/app-service/app-service-export-api-to-powerapps-and-flow .&nbsp; If you get the error: “Unable to download Swagger 2.0 metadata...." />
-    <meta name="twitter:image" content="/assets/images/2017/04/capture20170406104837219_thumb.png" />
-    
-categories:
-  - Uncategorized
----
 There is functionality in the Azure Portal that allows you to use the API definition of your Azure App Service and Export this through the “Export to PowerApps + Microsoft Flow” button in the API definition blade of your app ref: <a href="https://docs.microsoft.com/azure/app-service/app-service-export-api-to-powerapps-and-flow" target="_blank">https://docs.microsoft.com/azure/app-service/app-service-export-api-to-powerapps-and-flow</a> .&nbsp; If you get the error: “Unable to download Swagger 2.0 metadata. Please verify that the URL is publicly accessible. You may need to enable CORS for the App Service portal extension located at”&nbsp; It can be sometimes difficult to resolve this error.&nbsp; This should help you however!
 
 ## 

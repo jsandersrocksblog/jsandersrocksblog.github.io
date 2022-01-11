@@ -1,28 +1,3 @@
----
-id: 4775
-title: Point Kudu to a Particular Web Worker Instance
-date: 2018-02-26T14:16:10-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=4775
-permalink: /2018/02/26/point-kudu-to-a-particular-web-worker-instance/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Point Kudu to a Particular Web Worker Instance" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/02/26/point-kudu-to-a-particular-web-worker-instance/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview Kudu is the .SCM interface for Azure App Services.&nbsp; If you are running more than one instance of Azure App Services (for instance you have scaled out to 4 instances) and you need to get to the Kudu console to do something like kill a process, profile an instance or get a dump of..." />
-    <meta property="og:image" content="/assets/images/2018/02/capture20180226134710218_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Point Kudu to a Particular Web Worker Instance" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/02/26/point-kudu-to-a-particular-web-worker-instance/" />
-    <meta name="twitter:description" content="Overview Kudu is the .SCM interface for Azure App Services.&nbsp; If you are running more than one instance of Azure App Services (for instance you have scaled out to 4 instances) and you need to get to the Kudu console to do something like kill a process, profile an instance or get a dump of..." />
-    <meta name="twitter:image" content="/assets/images/2018/02/capture20180226134710218_thumb.png" />
-    
-categories:
-  - Uncategorized
----
  
 
 Kudu is the .SCM interface for Azure App Services.&nbsp; If you are running more than one instance of Azure App Services (for instance you have scaled out to 4 instances) and you need to get to the Kudu console to do something like kill a process, profile an instance or get a dump of a particular instance… you can use this technique.&nbsp; This technique does not rely on ARRAffinity being set for the Application because that setting does not affect the Kudu site.&nbsp; 

@@ -1,14 +1,3 @@
----
-id: 5819
-title: Open a support case for an Azure AD Tenant app under a subscription
-date: 2021-12-29T15:16:47-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5819
-permalink: /2021/12/29/open-a-support-case-for-an-azure-ad-tenant-app-under-a-subscription/
-categories:
-  - Uncategorized
----
  
 
 Your tenant may not be associated with a subscription.&nbsp; For example you will see ‘jsandersrocksAAD’ is not associated with a subscription below:

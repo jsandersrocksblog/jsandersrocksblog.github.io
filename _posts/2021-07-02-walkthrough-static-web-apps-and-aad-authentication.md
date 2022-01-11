@@ -1,14 +1,3 @@
----
-id: 5702
-title: Walkthrough Static Web Apps and AAD Authentication
-date: 2021-07-02T10:57:15-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5702
-permalink: /2021/07/02/walkthrough-static-web-apps-and-aad-authentication/
-categories:
-  - Uncategorized
----
  
 
 This is a step by step walkthrough of how to add AAD Authentication to Static Web Apps.&nbsp; This is based on these documents: 

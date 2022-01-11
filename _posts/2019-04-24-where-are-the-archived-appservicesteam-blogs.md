@@ -1,14 +1,3 @@
----
-id: 5434
-title: Where are the archived AppServicesTeam blogs?
-date: 2019-04-24T11:48:55-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5434
-permalink: /2019/04/24/where-are-the-archived-appservicesteam-blogs/
-categories:
-  - Uncategorized
----
 For example:
 
 [https://blogs.msdn.microsoft.com/appserviceteam/2018/05/07/multi-container/](https://blogs.msdn.microsoft.com/appserviceteam/2018/05/07/multi-container/ "https://blogs.msdn.microsoft.com/appserviceteam/2018/05/07/multi-container/")

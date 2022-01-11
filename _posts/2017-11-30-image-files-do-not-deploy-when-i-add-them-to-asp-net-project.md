@@ -1,26 +1,3 @@
----
-id: 3915
-title: Image files do not deploy when I add them to ASP.Net project
-date: 2017-11-30T16:52:15-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=3915
-permalink: /2017/11/30/image-files-do-not-deploy-when-i-add-them-to-asp-net-project/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Image files do not deploy when I add them to ASP.Net project" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/11/30/image-files-do-not-deploy-when-i-add-them-to-asp-net-project/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview You might notice that when you add files like images (.png .bmp) to your project that these are not updating to your Web App (Azure Web App or on premise). Cause This is by design and because of how Visual Studio treats these resources.&nbsp; These types of resources can be bound as resources in..." />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Image files do not deploy when I add them to ASP.Net project" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/11/30/image-files-do-not-deploy-when-i-add-them-to-asp-net-project/" />
-    <meta name="twitter:description" content="Overview You might notice that when you add files like images (.png .bmp) to your project that these are not updating to your Web App (Azure Web App or on premise). Cause This is by design and because of how Visual Studio treats these resources.&nbsp; These types of resources can be bound as resources in..." />
-    
-categories:
-  - Uncategorized
----
 
 
 You might notice that when you add files like images (.png .bmp) to your project that these are not updating to your Web App (Azure Web App or on premise).

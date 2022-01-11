@@ -1,14 +1,3 @@
----
-id: 5657
-title: How to chart scale operations for Azure App Services and Function Apps
-date: 2020-05-20T10:12:39-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5657
-permalink: /2020/05/20/how-to-chart-scale-operations-for-azure-app-services-and-function-apps/
-categories:
-  - Uncategorized
----
  
 
 Application Insights is a powerful tool to visualize what is happening with your application.&nbsp; This quick query shows how to chart when instances are added and removed

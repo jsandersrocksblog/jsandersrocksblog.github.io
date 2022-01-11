@@ -1,28 +1,3 @@
----
-id: 3705
-title: 'Easily Create a SAS to Download a File from Azure Storage&#8211;Using Azure Storage Explorer'
-date: 2017-10-12T08:19:19-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=3705
-permalink: /2017/10/12/easily-create-a-sas-to-download-a-file-from-azure-storage-using-azure-storage-explorer/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Easily Create a SAS to Download a File from Azure Storage&ndash;Using Azure Storage Explorer" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/10/12/easily-create-a-sas-to-download-a-file-from-azure-storage-using-azure-storage-explorer/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview In this scenario, you want to provide your customer with a secured URL to download a file from Azure Storage.&nbsp; You can do this programmatically of course but another option is to use the Azure Storage Explorer to create a Shared Access Signature (SAS) for your customer.&nbsp; Then provide the URL necessary with the..." />
-    <meta property="og:image" content="/assets/images/2017/10/capture20171012085456787_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Easily Create a SAS to Download a File from Azure Storage&ndash;Using Azure Storage Explorer" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/10/12/easily-create-a-sas-to-download-a-file-from-azure-storage-using-azure-storage-explorer/" />
-    <meta name="twitter:description" content="Overview In this scenario, you want to provide your customer with a secured URL to download a file from Azure Storage.&nbsp; You can do this programmatically of course but another option is to use the Azure Storage Explorer to create a Shared Access Signature (SAS) for your customer.&nbsp; Then provide the URL necessary with the..." />
-    <meta name="twitter:image" content="/assets/images/2017/10/capture20171012085456787_thumb.png" />
-    
-categories:
-  - Uncategorized
----
  
 
 In this scenario, you want to provide your customer with a secured URL to download a file from Azure Storage.&nbsp; You can do this programmatically of course but another option is to use the Azure Storage Explorer to create a Shared Access Signature (SAS) for your customer.&nbsp; Then provide the URL necessary with the SAS so that they can download the resource securely over HTTPS.

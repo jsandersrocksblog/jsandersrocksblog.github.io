@@ -1,26 +1,3 @@
----
-id: 4605
-title: 'Error: Could not find a part of the path &#039;E:\sitesroot\0\bin\roslyn\csc.exe&#039;.'
-date: 2018-02-22T16:30:11-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=4605
-permalink: /2018/02/22/error-could-not-find-a-part-of-the-path-esitesroot0binroslyncsc-exe/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Error: Could not find a part of the path &#8216;E:sitesrootbinroslyncsc.exe&#8217;." />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/02/22/error-could-not-find-a-part-of-the-path-esitesroot0binroslyncsc-exe/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview After publishing the web app to Azure Cloud Services from Visual Studio 2017, it would not run and returned a 500 error.  Turning off custom error messages I was getting this error: Could not find a part of the path &#039;E:sitesrootbinroslyncsc.exe&#039;. In your solution explorer for your project, right click on the ‘References’ section..." />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Error: Could not find a part of the path &#8216;E:sitesrootbinroslyncsc.exe&#8217;." />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/02/22/error-could-not-find-a-part-of-the-path-esitesroot0binroslyncsc-exe/" />
-    <meta name="twitter:description" content="Overview After publishing the web app to Azure Cloud Services from Visual Studio 2017, it would not run and returned a 500 error.  Turning off custom error messages I was getting this error: Could not find a part of the path &#039;E:sitesrootbinroslyncsc.exe&#039;. In your solution explorer for your project, right click on the ‘References’ section..." />
-    
-categories:
-  - Uncategorized
----
 
 
 After publishing the web app to Azure Cloud Services from Visual Studio 2017, it would not run and returned a 500 error.  Turning off custom error messages I was getting this error: _Could not find a part of the path &#8216;E:\sitesroot\0\bin\roslyn\csc.exe&#8217;._ In your solution explorer for your project, right click on the ‘References’ section for your WebRole and select ‘Manage NuGet Packages…’ _full stack:_ 

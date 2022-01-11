@@ -1,14 +1,3 @@
----
-id: 5746
-title: Where to Azure App Service Advisor Emails get sent?
-date: 2021-09-01T08:04:13-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5746
-permalink: /2021/09/01/where-to-azure-app-service-advisor-emails-get-sent/
-categories:
-  - Uncategorized
----
  
 
 Azure App Service Advisor will send notification emails and add notifications to the portal when your app is not healthy.&nbsp; Where does the email notification system retrieve a list of recipients?

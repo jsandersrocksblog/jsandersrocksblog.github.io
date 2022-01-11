@@ -1,28 +1,3 @@
----
-id: 4275
-title: 'Azure Mobile Apps: Disable Swagger'
-date: 2018-01-31T10:15:56-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=4275
-permalink: /2018/01/31/azure-mobile-apps-disable-swagger/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Azure Mobile Apps: Disable Swagger" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/01/31/azure-mobile-apps-disable-swagger/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview The Azure Mobile Apps quickstarts can support Swagger.&nbsp; What if you want to disable this?&nbsp; This walkthrough shows you where the Swagger routes come from and how to remove them Walkthrough – Node.js backend The Node.js implementation is simply a property.&nbsp; All you need to do is remove the attribute in your code.&nbsp; For..." />
-    <meta property="og:image" content="/assets/images/2018/01/capture20180131095116230_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Azure Mobile Apps: Disable Swagger" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/01/31/azure-mobile-apps-disable-swagger/" />
-    <meta name="twitter:description" content="Overview The Azure Mobile Apps quickstarts can support Swagger.&nbsp; What if you want to disable this?&nbsp; This walkthrough shows you where the Swagger routes come from and how to remove them Walkthrough – Node.js backend The Node.js implementation is simply a property.&nbsp; All you need to do is remove the attribute in your code.&nbsp; For..." />
-    <meta name="twitter:image" content="/assets/images/2018/01/capture20180131095116230_thumb.png" />
-    
-categories:
-  - Uncategorized
----
 
 
 The Azure Mobile Apps quickstarts can support Swagger.&nbsp; What if you want to disable this?&nbsp; This walkthrough shows you where the Swagger routes come from and how to remove them

@@ -1,14 +1,3 @@
----
-id: 5587
-title: 'How to get and Analyze a Memory Dump&ndash;Azure App Services'
-date: 2020-01-02T14:54:09-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5587
-permalink: /2020/01/02/how-to-get-and-analyze-a-memory-dump-azure-app-services/
-categories:
-  - Uncategorized
----
  
 
 Azure App Services has a way to retrieve and analyze a memory dump of your app right from the portal.&nbsp; This is a quick reference on how to use this feature

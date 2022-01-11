@@ -1,14 +1,3 @@
----
-id: 5543
-title: 'Custom Startup script for PHP &#8211; Azure App Service Linux'
-date: 2019-08-06T12:14:47-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5543
-permalink: /2019/08/06/custom-startup-script-for-php-azure-app-service-linux/
-categories:
-  - Uncategorized
----
 You have an option to create a custom startup script when using our provided (commonly referred to as ‘blessed’) images for PHP
 
 ## Instructions

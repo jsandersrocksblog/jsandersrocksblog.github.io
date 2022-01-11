@@ -1,28 +1,3 @@
----
-id: 2725
-title: Checklist for creating your first .NET Azure WebJob
-date: 2017-05-30T13:15:00-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=2725
-permalink: /2017/05/30/checklist-for-creating-your-first-net-azure-webjob/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Checklist for creating your first .NET Azure WebJob" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/05/30/checklist-for-creating-your-first-net-azure-webjob/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview I thought it would be beneficial to add a checklist of things you may have to do when creating a .NET Azure WebJob.&nbsp; Some of this applies to any Azure WebJob, but I will focus on a .NET Visual Basic WebJob (since I have not done that type before).&nbsp; I chose not to include..." />
-    <meta property="og:image" content="/assets/images/2017/05/capture20170519142726333_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Checklist for creating your first .NET Azure WebJob" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/05/30/checklist-for-creating-your-first-net-azure-webjob/" />
-    <meta name="twitter:description" content="Overview I thought it would be beneficial to add a checklist of things you may have to do when creating a .NET Azure WebJob.&nbsp; Some of this applies to any Azure WebJob, but I will focus on a .NET Visual Basic WebJob (since I have not done that type before).&nbsp; I chose not to include..." />
-    <meta name="twitter:image" content="/assets/images/2017/05/capture20170519142726333_thumb.png" />
-    
-categories:
-  - Uncategorized
----
 
 
 I thought it would be beneficial to add a checklist of things you may have to do when creating a .NET Azure WebJob.&nbsp; Some of this applies to any Azure WebJob, but I will focus on a .NET Visual Basic WebJob (since I have not done that type before).&nbsp; I chose not to include many screenshots because the portal UI changes frequently.&nbsp; This article accomplishes the same thing but has a lot of overhead:&nbsp; <a title="https://docs.microsoft.com/en-us/azure/app-service-web/websites-dotnet-webjobs-sdk-get-started" href="https://docs.microsoft.com/en-us/azure/app-service-web/websites-dotnet-webjobs-sdk-get-started" target="_blank">https://docs.microsoft.com/en-us/azure/app-service-web/websites-dotnet-webjobs-sdk-get-started</a>&nbsp; It also shows how to do some things differently from how I will show you.&nbsp; PLEASE read that as well.

@@ -1,14 +1,3 @@
----
-id: 5663
-title: Azure Web Job not running
-date: 2020-08-05T07:20:07-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5663
-permalink: /2020/08/05/azure-web-job-not-running/
-categories:
-  - Uncategorized
----
 Super simple.&nbsp; Enable “Always on” for the web site.
 
 The SCM Web Site (also known as Kudu) can stop due to inactivity on it or the web site if Always On was not enabled for this site.

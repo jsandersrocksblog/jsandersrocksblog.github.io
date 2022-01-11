@@ -1,26 +1,3 @@
----
-id: 2135
-title: 'Azure Function App Error: We are not able to retrieve the runtime master key'
-date: 2017-05-09T18:59:31-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=2135
-permalink: /2017/05/09/function-app-error-we-are-not-able-to-retrieve-the-runtime-master-key/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Azure Function App Error: We are not able to retrieve the runtime master key" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/05/09/function-app-error-we-are-not-able-to-retrieve-the-runtime-master-key/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview When you access an Azure Function app from the portal it will attempt to retrieve the Function runtime keys.  This is documented at https://github.com/Azure/azure-webjobs-sdk-script/wiki/Http-Functions#api-keys .  There are a number of reasons why the keys cannot be retrieved and this article documents a recent change that means you may see this issue. Possible errors &#8220;We..." />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Azure Function App Error: We are not able to retrieve the runtime master key" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/05/09/function-app-error-we-are-not-able-to-retrieve-the-runtime-master-key/" />
-    <meta name="twitter:description" content="Overview When you access an Azure Function app from the portal it will attempt to retrieve the Function runtime keys.  This is documented at https://github.com/Azure/azure-webjobs-sdk-script/wiki/Http-Functions#api-keys .  There are a number of reasons why the keys cannot be retrieved and this article documents a recent change that means you may see this issue. Possible errors &#8220;We..." />
-    
-categories:
-  - Uncategorized
----
 
 
 When you access an Azure Function app from the portal it will attempt to retrieve the Function runtime keys.&nbsp; This is documented at <https://github.com/Azure/azure-webjobs-sdk-script/wiki/Http-Functions#api-keys> .&nbsp; There are a number of reasons why the keys cannot be retrieved and this article documents a recent change that means you may see this issue.

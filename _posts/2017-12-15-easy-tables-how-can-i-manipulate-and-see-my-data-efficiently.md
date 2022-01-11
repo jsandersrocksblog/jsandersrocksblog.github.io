@@ -1,28 +1,3 @@
----
-id: 4105
-title: 'Easy tables &#8211; How can I manipulate and See My Data Efficiently'
-date: 2017-12-15T10:45:19-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=4105
-permalink: /2017/12/15/easy-tables-how-can-i-manipulate-and-see-my-data-efficiently/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Easy tables &#8211; How can I manipulate and See My Data Efficiently" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/12/15/easy-tables-how-can-i-manipulate-and-see-my-data-efficiently/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview The Easy tables feature of Node.js backend Azure Mobile Apps is a great way to do your initial development.&nbsp; Once you get a few hundred rows of data however the browser based interface simply does not work well.&nbsp; This is when you should move to an alternative.&nbsp; This also allows you to run SQL..." />
-    <meta property="og:image" content="/assets/images/2017/12/capture20171215100425320_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Easy tables &#8211; How can I manipulate and See My Data Efficiently" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/12/15/easy-tables-how-can-i-manipulate-and-see-my-data-efficiently/" />
-    <meta name="twitter:description" content="Overview The Easy tables feature of Node.js backend Azure Mobile Apps is a great way to do your initial development.&nbsp; Once you get a few hundred rows of data however the browser based interface simply does not work well.&nbsp; This is when you should move to an alternative.&nbsp; This also allows you to run SQL..." />
-    <meta name="twitter:image" content="/assets/images/2017/12/capture20171215100425320_thumb.png" />
-    
-categories:
-  - Uncategorized
----
  
 
 The Easy tables feature of Node.js backend Azure Mobile Apps is a great way to do your initial development.&nbsp; Once you get a few hundred rows of data however the browser based interface simply does not work well.&nbsp; This is when you should move to an alternative.&nbsp; This also allows you to run SQL queries and filters to narrow down the data you want to see or manipulate.&nbsp; This guide is for the option when you are using Azure SQL for your backend database.

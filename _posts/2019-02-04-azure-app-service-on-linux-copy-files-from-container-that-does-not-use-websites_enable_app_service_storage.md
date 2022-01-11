@@ -1,14 +1,3 @@
----
-id: 5395
-title: 'Azure App Service on Linux&ndash;Copy files from container that does not use WEBSITES_ENABLE_APP_SERVICE_STORAGE'
-date: 2019-02-04T16:18:07-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5395
-permalink: /2019/02/04/azure-app-service-on-linux-copy-files-from-container-that-does-not-use-websites_enable_app_service_storage/
-categories:
-  - Uncategorized
----
  
 
 If you need to move files from a container and you are not using WEBSITES\_ENABLE\_APP\_SERVICE\_STORAGE, you will notice you cannot see the files when you SSH into the Kudu container.&nbsp; In order to get these files into Kudu to easily transfer them you can use the linux tool ‘ncftp’.&nbsp; 

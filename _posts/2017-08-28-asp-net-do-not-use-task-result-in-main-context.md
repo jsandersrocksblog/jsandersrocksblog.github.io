@@ -1,26 +1,3 @@
----
-id: 3446
-title: 'ASP.Net&#8211;Do not use Task .Result in main context'
-date: 2017-08-28T15:47:58-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=3446
-permalink: /2017/08/28/asp-net-do-not-use-task-result-in-main-context/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="ASP.Net&ndash;Do not use Task .Result in main context" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/08/28/asp-net-do-not-use-task-result-in-main-context/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview You can guarantee you will deadlock if you have a call similar to this in your code, where CallHttp is a an AsyncTask that awaits a result: public class DeadlockController : ApiController { public string Get() { string ret = &quot;&quot;; // deadlock ret = Utilities.CallHttp().Result; return ret; } Cause and Symptoms The reason..." />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="ASP.Net&ndash;Do not use Task .Result in main context" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/08/28/asp-net-do-not-use-task-result-in-main-context/" />
-    <meta name="twitter:description" content="Overview You can guarantee you will deadlock if you have a call similar to this in your code, where CallHttp is a an AsyncTask that awaits a result: public class DeadlockController : ApiController { public string Get() { string ret = &quot;&quot;; // deadlock ret = Utilities.CallHttp().Result; return ret; } Cause and Symptoms The reason..." />
-    
-categories:
-  - Uncategorized
----
  
 
 You can guarantee you will deadlock if you have a call similar to this in your code, where CallHttp is a an AsyncTask that awaits a result:

@@ -1,14 +1,3 @@
----
-id: 5566
-title: How to re-open an Azure Support Case
-date: 2019-09-04T13:57:12-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5566
-permalink: /2019/09/04/how-to-re-open-an-azure-support-case/
-categories:
-  - Uncategorized
----
  
 
 If your case is closed and for some reason you problem is not resolved or re-occurs you can follow these instructions to view your past cases.&nbsp; Once in that view, you can send a message and this will re-open the issue.

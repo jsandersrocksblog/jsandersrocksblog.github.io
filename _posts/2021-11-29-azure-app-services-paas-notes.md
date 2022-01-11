@@ -1,14 +1,3 @@
----
-id: 5801
-title: 'Azure App Services&ndash;PaaS notes'
-date: 2021-11-29T17:09:38-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5801
-permalink: /2021/11/29/azure-app-services-paas-notes/
-categories:
-  - Uncategorized
----
  
 
 People moving from an on-premise to Cloud implementation sometimes have difficulty understanding they do not have control over the underlying platform updates to their PaaS resources.&nbsp; Azure App Services is a Platform as a Service (PaaS).&nbsp; Simply put, a PaaS service gives you a platform to host your code and the provider updates the platform whenever necessary.&nbsp; You cannot control when the underlying platform gets updated nor what gets updated.&nbsp; You rely on the provider of the platform to handle security and platform updates and trust that the platform simply will work.&nbsp; There are many advantages to a PaaS environment that I will not cover here.&nbsp; We have learning resources that cover all the basics of Azure here: [https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts/?wt.mc\_id=acom\_newtoazure\_webpage\_azuremktg](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts/?wt.mc_id=acom_newtoazure_webpage_azuremktg "https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts/?wt.mc_id=acom_newtoazure_webpage_azuremktg")

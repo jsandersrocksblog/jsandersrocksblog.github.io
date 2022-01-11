@@ -1,28 +1,3 @@
----
-id: 3825
-title: Install Visual Studio Code on Ubuntu 16.04 LTS
-date: 2017-10-13T14:01:36-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=3825
-permalink: /2017/10/13/install-visual-studio-code-on-ubuntu-16-04-lts/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Install Visual Studio Code on Ubuntu 16.04 LTS" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/10/13/install-visual-studio-code-on-ubuntu-16-04-lts/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview I had trouble getting Visual Studio Code to install by simple clicking on the package from https://code.visualstudio.com.&nbsp; Whether I tried do download or use Ubuntu Software to install this I got an error: status code 400: Bad Request. Solution Download the file, then right click on the desktop and open a terminal: Type cd..." />
-    <meta property="og:image" content="/assets/images/2017/10/capture20171013144839126_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Install Visual Studio Code on Ubuntu 16.04 LTS" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/10/13/install-visual-studio-code-on-ubuntu-16-04-lts/" />
-    <meta name="twitter:description" content="Overview I had trouble getting Visual Studio Code to install by simple clicking on the package from https://code.visualstudio.com.&nbsp; Whether I tried do download or use Ubuntu Software to install this I got an error: status code 400: Bad Request. Solution Download the file, then right click on the desktop and open a terminal: Type cd..." />
-    <meta name="twitter:image" content="/assets/images/2017/10/capture20171013144839126_thumb.png" />
-    
-categories:
-  - Uncategorized
----
  
 
 I had trouble getting Visual Studio Code to install by simple clicking on the package from <https://code.visualstudio.com>.&nbsp; Whether I tried do download or use Ubuntu Software to install this I got an error: status code 400: Bad Request.

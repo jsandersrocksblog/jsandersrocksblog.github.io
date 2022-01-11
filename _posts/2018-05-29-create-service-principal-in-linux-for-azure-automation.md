@@ -1,28 +1,3 @@
----
-id: 5315
-title: Create Service Principal in Linux for Azure Automation
-date: 2018-05-29T14:57:46-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5315
-permalink: /2018/05/29/create-service-principal-in-linux-for-azure-automation/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Create Service Principal in Linux for Azure Automation" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/05/29/create-service-principal-in-linux-for-azure-automation/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview There are lots of ways to do things in Azure.&nbsp; I could not find a current end to end sample of setting up and getting an Access Token using SSH on a Linux box.&nbsp; I chose the latest Ubuntu image up in Azure Virtual Machines for this overview.&nbsp; This is loosely based on this..." />
-    <meta property="og:image" content="/assets/images/2018/05/Login_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Create Service Principal in Linux for Azure Automation" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/05/29/create-service-principal-in-linux-for-azure-automation/" />
-    <meta name="twitter:description" content="Overview There are lots of ways to do things in Azure.&nbsp; I could not find a current end to end sample of setting up and getting an Access Token using SSH on a Linux box.&nbsp; I chose the latest Ubuntu image up in Azure Virtual Machines for this overview.&nbsp; This is loosely based on this..." />
-    <meta name="twitter:image" content="/assets/images/2018/05/Login_thumb.png" />
-    
-categories:
-  - Uncategorized
----
  
 
 There are lots of ways to do things in Azure.&nbsp; I could not find a current end to end sample of setting up and getting an Access Token using SSH on a Linux box.&nbsp; I chose the latest Ubuntu image up in Azure Virtual Machines for this overview.&nbsp; This is loosely based on this older blog which had you create a PEM certificate (which is no longer necessary) [https://blogs.msdn.microsoft.com/arsen/2015/09/18/certificate-based-auth-with-azure-service-principals-from-linux-command-line/](https://blogs.msdn.microsoft.com/arsen/2015/09/18/certificate-based-auth-with-azure-service-principals-from-linux-command-line/ "https://blogs.msdn.microsoft.com/arsen/2015/09/18/certificate-based-auth-with-azure-service-principals-from-linux-command-line/") .

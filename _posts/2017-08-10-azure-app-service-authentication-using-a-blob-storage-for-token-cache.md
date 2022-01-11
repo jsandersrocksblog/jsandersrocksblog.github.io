@@ -1,28 +1,3 @@
----
-id: 3445
-title: 'Azure App Service Authentication &#8211; Using a Blob Storage for Token Cache'
-date: 2017-08-10T14:10:42-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=3445
-permalink: /2017/08/10/azure-app-service-authentication-using-a-blob-storage-for-token-cache/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Azure App Service Authentication &#8211; Using a Blob Storage for Token Cache" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/08/10/azure-app-service-authentication-using-a-blob-storage-for-token-cache/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Chris had this note in his blog App Service Token Store “As an alternative, you can provision an Azure Blob Storage container and configure your web app with a SaS URL (with read/write/list access) pointing to that blob container. This SaS URL can then be saved to the WEBSITE_AUTH_TOKEN_CONTAINER_SASURL app setting. When this app setting..." />
-    <meta property="og:image" content="/assets/images/2017/08/capture20170810143155663_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Azure App Service Authentication &#8211; Using a Blob Storage for Token Cache" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/08/10/azure-app-service-authentication-using-a-blob-storage-for-token-cache/" />
-    <meta name="twitter:description" content="Chris had this note in his blog App Service Token Store “As an alternative, you can provision an Azure Blob Storage container and configure your web app with a SaS URL (with read/write/list access) pointing to that blob container. This SaS URL can then be saved to the WEBSITE_AUTH_TOKEN_CONTAINER_SASURL app setting. When this app setting..." />
-    <meta name="twitter:image" content="/assets/images/2017/08/capture20170810143155663_thumb.png" />
-    
-categories:
-  - Uncategorized
----
 Chris had this note in <a href="https://cgillum.tech/2016/03/07/app-service-token-store/" target="_blank">his blog App Service Token Store</a>
 
 “As an alternative, you can provision an Azure Blob Storage container and configure your web app with a SaS URL (with read/write/list access) pointing to that blob container. This SaS URL can then be saved to the **WEBSITE\_AUTH\_TOKEN\_CONTAINER\_SASURL** app setting. When this app setting is present, all tokens will be stored in and fetched from the specified blob container.”

@@ -1,28 +1,3 @@
----
-id: 4555
-title: 'How To: Capture a System.Net trace from PowerShell'
-date: 2018-02-15T13:50:41-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=4555
-permalink: /2018/02/15/how-to-capture-a-system-net-trace-from-powershell/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="How To: Capture a System.Net trace from PowerShell" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/02/15/how-to-capture-a-system-net-trace-from-powershell/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview PowerShell can and does use System.Net classes to communicate over the wire.&nbsp; This example will cover capturing a System.Net trace of the Azure PowerShell Publish-AzureWebsiteProject command-let. Setup Close any running PowerShell instances.&nbsp; PowerShell reads the .config file when you first start the executable.&nbsp; Locate the PowerShell (or PowerShell_ise) executable so you can alter the..." />
-    <meta property="og:image" content="/assets/images/2018/02/capture20180215110755159_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="How To: Capture a System.Net trace from PowerShell" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/02/15/how-to-capture-a-system-net-trace-from-powershell/" />
-    <meta name="twitter:description" content="Overview PowerShell can and does use System.Net classes to communicate over the wire.&nbsp; This example will cover capturing a System.Net trace of the Azure PowerShell Publish-AzureWebsiteProject command-let. Setup Close any running PowerShell instances.&nbsp; PowerShell reads the .config file when you first start the executable.&nbsp; Locate the PowerShell (or PowerShell_ise) executable so you can alter the..." />
-    <meta name="twitter:image" content="/assets/images/2018/02/capture20180215110755159_thumb.png" />
-    
-categories:
-  - Uncategorized
----
 
 
 PowerShell can and does use System.Net classes to communicate over the wire.&nbsp; This example will cover capturing a System.Net trace of the Azure PowerShell _Publish-AzureWebsiteProject_ command-let.

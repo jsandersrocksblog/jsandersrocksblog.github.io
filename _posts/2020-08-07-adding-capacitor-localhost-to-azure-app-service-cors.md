@@ -1,14 +1,3 @@
----
-id: 5677
-title: Adding capacitor://localhost to Azure App Service CORS
-date: 2020-08-07T10:34:03-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5677
-permalink: /2020/08/07/adding-capacitor-localhost-to-azure-app-service-cors/
-categories:
-  - Uncategorized
----
  
 
 Again… just a quick post.&nbsp; The UI will not validate and allow you to add capacitor://localhost to the CORS settings in Azure App Services.&nbsp; Here are two ways to work around it.

@@ -1,26 +1,3 @@
----
-id: 2385
-title: Azure .NET Core Application Settings
-date: 2017-05-16T18:15:25-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=2385
-permalink: /2017/05/16/azure-net-core-application-settings/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Azure .NET Core Application Settings" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/05/16/azure-net-core-application-settings/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview This article outlines how to work with Application Settings in ASP.NET Core with Azure Web Apps (Azure App Services) super simple Jeff version… How To Ref: Working with Azure App Services Application Settings and Connection Strings in ASP.NET Core The above article is wonderful but adds some complexity.&nbsp; It also does not tell you..." />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Azure .NET Core Application Settings" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/05/16/azure-net-core-application-settings/" />
-    <meta name="twitter:description" content="Overview This article outlines how to work with Application Settings in ASP.NET Core with Azure Web Apps (Azure App Services) super simple Jeff version… How To Ref: Working with Azure App Services Application Settings and Connection Strings in ASP.NET Core The above article is wonderful but adds some complexity.&nbsp; It also does not tell you..." />
-    
-categories:
-  - Uncategorized
----
 
 
 This article outlines how to work with Application Settings in ASP.NET Core with Azure Web Apps (Azure App Services) super simple Jeff version…

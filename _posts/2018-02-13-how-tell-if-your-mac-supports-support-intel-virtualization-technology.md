@@ -1,26 +1,3 @@
----
-id: 4475
-title: 'How tell if your Mac Supports Support Intel&#174; Virtualization Technology'
-date: 2018-02-13T09:12:41-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=4475
-permalink: /2018/02/13/how-tell-if-your-mac-supports-support-intel-virtualization-technology/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="How tell if your Mac Supports Support Intel&reg; Virtualization Technology" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/02/13/how-tell-if-your-mac-supports-support-intel-virtualization-technology/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="I was trying to see if my MacBook Air support HAXM for Android emulation and could not find a good resource to tell me how to find out what the processor number of my Mac was. So here you go! Open a Terminal Go to Finder and press Command + Shift + U Select Terminal..." />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="How tell if your Mac Supports Support Intel&reg; Virtualization Technology" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/02/13/how-tell-if-your-mac-supports-support-intel-virtualization-technology/" />
-    <meta name="twitter:description" content="I was trying to see if my MacBook Air support HAXM for Android emulation and could not find a good resource to tell me how to find out what the processor number of my Mac was. So here you go! Open a Terminal Go to Finder and press Command + Shift + U Select Terminal..." />
-    
-categories:
-  - Uncategorized
----
 I was trying to see if my MacBook Air support HAXM for Android emulation and could not find a good resource to tell me how to find out what the processor number of my Mac was. So here you go! 
 
 Open a Terminal 

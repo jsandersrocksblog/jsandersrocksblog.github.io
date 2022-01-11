@@ -1,28 +1,3 @@
----
-id: 4215
-title: 'Azure App Service error: AADSTS50011: The reply address &#039;http://.azurewebsites.net/signin-oidc&#039; does not match the reply addresses configured for the application:'
-date: 2018-01-30T15:00:25-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=4215
-permalink: /2018/01/30/azure-app-service-error-aadsts50011-the-reply-address-http-azurewebsites-netsignin-oidc-does-not-match-the-reply-addresses-configured-for-the-application/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Azure App Service error: AADSTS50011: The reply address &#8216;http://.azurewebsites.net/signin-oidc&#8217; does not match the reply addresses configured for the application:" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/01/30/azure-app-service-error-aadsts50011-the-reply-address-http-azurewebsites-netsignin-oidc-does-not-match-the-reply-addresses-configured-for-the-application/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview When you deploy an Azure Active Directory application that was working great locally you may get the following error when logging in:&nbsp; AADSTS50011: The reply address &#039;http://&lt;yourwebapp&gt;.azurewebsites.net/signin-oidc&#039; does not match the reply addresses configured for the application: &#039;c8a23e63-b4e3-4d10-9cf8-0fca55207424&#039;. More details: not specified How to fix this This error says it all!&nbsp; When you deploy..." />
-    <meta property="og:image" content="/assets/images/2018/01/appregistration_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Azure App Service error: AADSTS50011: The reply address &#8216;http://.azurewebsites.net/signin-oidc&#8217; does not match the reply addresses configured for the application:" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2018/01/30/azure-app-service-error-aadsts50011-the-reply-address-http-azurewebsites-netsignin-oidc-does-not-match-the-reply-addresses-configured-for-the-application/" />
-    <meta name="twitter:description" content="Overview When you deploy an Azure Active Directory application that was working great locally you may get the following error when logging in:&nbsp; AADSTS50011: The reply address &#039;http://&lt;yourwebapp&gt;.azurewebsites.net/signin-oidc&#039; does not match the reply addresses configured for the application: &#039;c8a23e63-b4e3-4d10-9cf8-0fca55207424&#039;. More details: not specified How to fix this This error says it all!&nbsp; When you deploy..." />
-    <meta name="twitter:image" content="/assets/images/2018/01/appregistration_thumb.png" />
-    
-categories:
-  - Uncategorized
----
 
 
 When you deploy an Azure Active Directory application that was working great locally you may get the following error when logging in:&nbsp; AADSTS50011: The reply address &#8216;http://<yourwebapp>.azurewebsites.net/signin-oidc&#8217; does not match the reply addresses configured for the application: &#8216;c8a23e63-b4e3-4d10-9cf8-0fca55207424&#8217;. More details: not specified

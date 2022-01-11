@@ -1,28 +1,3 @@
----
-id: 3395
-title: 'Walkthrough&#8211;Add Azure Web App to Visual Studio Team Services'
-date: 2017-07-18T12:40:39-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=3395
-permalink: /2017/07/18/walkthrough-add-azure-web-app-to-visual-studio-team-services-2/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Walkthrough&ndash;Add Azure Web App to Visual Studio Team Services" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/07/18/walkthrough-add-azure-web-app-to-visual-studio-team-services-2/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview In this walkthrough I will show&nbsp; you how to use Visual Studio Team Services with an existing Azure App Service project (specifically an Azure Web App).&nbsp; We will add a task to update/create the project database from a DACPAC file and enable CI (Continuous Integration). Sign up for Visual Studio Team Services&nbsp; Go to:..." />
-    <meta property="og:image" content="/assets/images/2017/07/capture20170717092329860_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Walkthrough&ndash;Add Azure Web App to Visual Studio Team Services" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/07/18/walkthrough-add-azure-web-app-to-visual-studio-team-services-2/" />
-    <meta name="twitter:description" content="Overview In this walkthrough I will show&nbsp; you how to use Visual Studio Team Services with an existing Azure App Service project (specifically an Azure Web App).&nbsp; We will add a task to update/create the project database from a DACPAC file and enable CI (Continuous Integration). Sign up for Visual Studio Team Services&nbsp; Go to:..." />
-    <meta name="twitter:image" content="/assets/images/2017/07/capture20170717092329860_thumb.png" />
-    
-categories:
-  - Uncategorized
---- 
 
  
 

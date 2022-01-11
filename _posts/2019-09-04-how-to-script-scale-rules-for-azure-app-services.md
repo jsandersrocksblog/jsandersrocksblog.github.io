@@ -1,14 +1,3 @@
----
-id: 5575
-title: How to script Scale Rules for Azure App Services
-date: 2019-09-04T15:17:08-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5575
-permalink: /2019/09/04/how-to-script-scale-rules-for-azure-app-services/
-categories:
-  - Uncategorized
----
  
 
 In this example I am showing how you can script setting the properties correctly in script to set a Scale operation based on some values you want.

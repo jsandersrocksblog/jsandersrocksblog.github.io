@@ -1,28 +1,3 @@
----
-id: 2185
-title: How to run classic ASP on Azure Web Apps
-date: 2017-05-11T13:47:25-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=2185
-permalink: /2017/05/11/how-to-run-classic-asp-on-azure-web-apps/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="How to run classic ASP on Azure Web Apps" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/05/11/how-to-run-classic-asp-on-azure-web-apps/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Overview We mention you can use ASP on Azure Web Apps but documentation is a bit scarce.&nbsp; This walkthrough will show how to deploy a simple vbscript ASP page to a Azure Web App. Steps Create a Classic ASP page I will use the App Service Editor built into the Azure Portal.&nbsp; Simply go to..." />
-    <meta property="og:image" content="/assets/images/2017/05/snip_20170511085109_thumb.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="How to run classic ASP on Azure Web Apps" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/05/11/how-to-run-classic-asp-on-azure-web-apps/" />
-    <meta name="twitter:description" content="Overview We mention you can use ASP on Azure Web Apps but documentation is a bit scarce.&nbsp; This walkthrough will show how to deploy a simple vbscript ASP page to a Azure Web App. Steps Create a Classic ASP page I will use the App Service Editor built into the Azure Portal.&nbsp; Simply go to..." />
-    <meta name="twitter:image" content="/assets/images/2017/05/snip_20170511085109_thumb.png" />
-    
-categories:
-  - Uncategorized
----
 
 
 We mention you can use ASP on Azure Web Apps but documentation is a bit scarce.&nbsp; This walkthrough will show how to deploy a simple vbscript ASP page to a Azure Web App.

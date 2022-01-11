@@ -1,14 +1,3 @@
----
-id: 5427
-title: Test Azure Function App Key access
-date: 2019-04-24T08:36:34-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5427
-permalink: /2019/04/24/test-azure-function-app-key-access/
-categories:
-  - Uncategorized
----
  
 
 You can test the key that Azure Functions uses when communicating to it’s associated storage account.&nbsp; This is a great troubleshooting step if you get errors that the function is not accessible.

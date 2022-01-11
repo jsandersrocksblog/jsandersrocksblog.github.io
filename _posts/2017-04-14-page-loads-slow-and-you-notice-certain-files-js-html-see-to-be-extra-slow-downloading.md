@@ -1,26 +1,3 @@
----
-id: 2115
-title: Page Loads slow and you notice certain files (js, html) seem to be extra slow downloading
-date: 2017-04-14T18:28:53-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=2115
-permalink: /2017/04/14/page-loads-slow-and-you-notice-certain-files-js-html-see-to-be-extra-slow-downloading/
-opengraph_tags:
-  - |
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Page Loads slow and you notice certain files (js, html) see to be extra slow downloading" />
-    <meta property="og:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/04/14/page-loads-slow-and-you-notice-certain-files-js-html-see-to-be-extra-slow-downloading/" />
-    <meta property="og:site_name" content="Http Client Protocol Issues (and other fun stuff I support)" />
-    <meta property="og:description" content="Symptom You noticed slow performance with particular files (.js, .html and more) were downloading very slowly Cause Certain files are sent back to the client as chunked encoded.&nbsp; CDNs and Web Servers both show this behavior.&nbsp; Chunked downloads are very expensive in terms of speed because each chunk is in essence treated like a separate..." />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Page Loads slow and you notice certain files (js, html) see to be extra slow downloading" />
-    <meta name="twitter:url" content="https://blogs.msdn.microsoft.com/jpsanders/2017/04/14/page-loads-slow-and-you-notice-certain-files-js-html-see-to-be-extra-slow-downloading/" />
-    <meta name="twitter:description" content="Symptom You noticed slow performance with particular files (.js, .html and more) were downloading very slowly Cause Certain files are sent back to the client as chunked encoded.&nbsp; CDNs and Web Servers both show this behavior.&nbsp; Chunked downloads are very expensive in terms of speed because each chunk is in essence treated like a separate..." />
-    
-categories:
-  - Uncategorized
----
 You notice particular files (.js, .html and more) are downloading very slowly
 
 ## Cause

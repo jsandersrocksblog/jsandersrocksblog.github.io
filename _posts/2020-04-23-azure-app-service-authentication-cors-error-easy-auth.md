@@ -1,14 +1,3 @@
----
-id: 5650
-title: Azure App Service Authentication CORS error (Easy Auth)
-date: 2020-04-23T14:29:56-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5650
-permalink: /2020/04/23/azure-app-service-authentication-cors-error-easy-auth/
-categories:
-  - Uncategorized
----
  
 
 Using Easy Auth you might see this error: Failed to load <https://login.windows.net/>….: Response to preflight request doesn&#8217;t pass access control check: No &#8216;Access-Control-Allow-Origin&#8217; header is present on the requested resource. Origin &#8216;<https://sitename.azurewebsites.net>&#8216; is therefore not allowed access. If an opaque response serves your needs, set the request&#8217;s mode to &#8216;no-cors&#8217; to fetch the resource with CORS disabled.

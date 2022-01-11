@@ -1,14 +1,3 @@
----
-id: 5647
-title: Using Graph Bindings with Node.JS Azure Function Apps
-date: 2020-01-24T16:35:48-05:00
-author: jsanders
-layout: post
-guid: http://jsandersblog.azurewebsites.net/?p=5647
-permalink: /2020/01/24/using-graph-bindings-with-node-js-azure-function-apps/
-categories:
-  - Uncategorized
----
 
 Using Graph Bindings with Node.JS Azure
 
