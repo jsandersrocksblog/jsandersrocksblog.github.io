@@ -1,5 +1,3 @@
-## Issue
-
 I confirmed Windows Azure Mobile Services was able to communicate with GCM (Google Cloud Messaging) and had no errors sending the notification to GCM.&#160; But how could I see how this got or didn’t get to my Android Emulator?
 
 ## Server side
