@@ -1,5 +1,3 @@
-
-
 You have some code you have created in your subscription and a customer wants to authenticate and use your application.&nbsp; You are not connected to any other Azure Active Directory authentication.&nbsp; This is bit of a contrived example but will give you some insight in to how Azure App Services authentication works.
 
 ## 

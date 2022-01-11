@@ -1,4 +1,3 @@
-
 PHP, Java and other FastCGI hosted environments should respond to an Always On ping to keep the child process warmed up.&nbsp; Specifically in Azure App Services we send a request to the Root of the site with the header User-Agent: AlwaysOn.&nbsp; If you are forcing HTTPS using a Url Rewrite rule, the Always On ping will get a redirect but will not follow that redirect and therefore the FastCGI module will not be hit and kept warm.
 
 ## Solution

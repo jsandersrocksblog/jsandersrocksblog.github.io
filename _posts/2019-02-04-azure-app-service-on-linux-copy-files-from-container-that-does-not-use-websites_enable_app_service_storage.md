@@ -1,5 +1,3 @@
- 
-
 If you need to move files from a container and you are not using WEBSITES\_ENABLE\_APP\_SERVICE\_STORAGE, you will notice you cannot see the files when you SSH into the Kudu container.&nbsp; In order to get these files into Kudu to easily transfer them you can use the linux tool ‘ncftp’.&nbsp; 
 
 # Steps

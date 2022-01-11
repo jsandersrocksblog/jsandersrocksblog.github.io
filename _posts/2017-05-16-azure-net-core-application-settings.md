@@ -1,5 +1,3 @@
-
-
 This article outlines how to work with Application Settings in ASP.NET Core with Azure Web Apps (Azure App Services) super simple Jeff version…
 
 ## How To

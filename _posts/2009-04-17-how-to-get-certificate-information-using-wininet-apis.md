@@ -1,4 +1,3 @@
-  
 There are two different structures you can query in order to retrieve server certificate information.  You must do some sort of request to complete the SSL server certificate exchange, and then you can retrieve this information.  Here is an example of that technique.  
 **C++ code listing for sample (<a>Copy Code</a>):**
 

@@ -1,5 +1,3 @@
- 
-
 Your tenant may not be associated with a subscription.&nbsp; For example you will see ‘jsandersrocksAAD’ is not associated with a subscription below:
 
 [<img loading="lazy" width="855" height="437" title="image" style="display: inline; background-image: none;" alt="image" src="/assets/images/2021/12/image_thumb.png" border="0" />](/assets/images/2021/12/image.png)

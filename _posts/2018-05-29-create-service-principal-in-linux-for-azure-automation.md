@@ -1,5 +1,3 @@
- 
-
 There are lots of ways to do things in Azure.&nbsp; I could not find a current end to end sample of setting up and getting an Access Token using SSH on a Linux box.&nbsp; I chose the latest Ubuntu image up in Azure Virtual Machines for this overview.&nbsp; This is loosely based on this older blog which had you create a PEM certificate (which is no longer necessary) [https://blogs.msdn.microsoft.com/arsen/2015/09/18/certificate-based-auth-with-azure-service-principals-from-linux-command-line/](https://blogs.msdn.microsoft.com/arsen/2015/09/18/certificate-based-auth-with-azure-service-principals-from-linux-command-line/ "https://blogs.msdn.microsoft.com/arsen/2015/09/18/certificate-based-auth-with-azure-service-principals-from-linux-command-line/") .
 
 # Steps

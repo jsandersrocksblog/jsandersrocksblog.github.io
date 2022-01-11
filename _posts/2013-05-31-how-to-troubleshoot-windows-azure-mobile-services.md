@@ -9,7 +9,7 @@ The server has a script interface for the four data operations.  You can use lo
 You need to determine where you think the problem is; the Mobile Service infrastructure, your Mobile Service, Azure SQL or client code, and then compare what the expected result is verses what you are experiencing.  Here are some steps you can take to isolate the problem:  
 Can you get to your Mobile Services dashboard (<https://manage.windowsazure.com/>) and click on your Mobile Service?  If not, perhaps there is a connectivity or network error where you are.  
 Are the Mobile Services healthy?  You can go to <a target="_blank" href="http://www.windowsazure.com/en-us/support/service-dashboard/">Windows Azure Service Dashboard</a> and see if the Mobile Services are see the status.  Click on the RSS feed icon on the right of the Mobile Services to see any news about Mobile Services.  There is a link at the top of the page to get help if the service is not healthy.  
-[<img loading="lazy" width="690" height="98" title="image" alt="image" src="/assets/images/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/83/94/metablogapi/0647.image_thumb_43536D2A.png" border="0" />](/assets/images/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/83/94/metablogapi/1777.image_3A46E1A9.png)  
+
 Look in the LOGS tab of your Mobile Service in the Windows Azure Management dashboard (<https://manage.windowsazure.com/>) and see if there are any useful errors logged that give you a clue where to start looking.  These logs are generated when there are errors or messages generated from the scripts you have defined for your mobile service or if there are problems executing the default script actions (Scheduler, insert, read, update or delete).
 
 > Look at your DASHBOARD.  Have you exceeded your usage in any category?  That will cause a 500 Error!  The Free Tier has a limited amount of Outbound data (Free means development not a deployed app so you may need to upgrade).
@@ -18,12 +18,10 @@ Can you get to your Mobile Service URL?  You can find this if you don’t know 
 
 > Cannot reach Mobile Service URL (network issue):
 
-> [<img loading="lazy" width="378" height="160" title="image" alt="image" src="/assets/images/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/83/94/metablogapi/7041.image_thumb_477D44EF.png" border="0" />](/assets/images/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/83/94/metablogapi/0181.image_7AB97E58.png)
-
+> 
 > Successful test for Mobile Service URL:
 
-> [<img loading="lazy" width="460" height="226" title="image" alt="image" src="/assets/images/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/83/94/metablogapi/1440.image_thumb_72E165E9.png" border="0" />](/assets/images/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/83/94/metablogapi/8054.image_78304C9A.png)
-
+> 
 > Turn off Friendly Error Messages by unchecking this box:
 
 > [<img loading="lazy" width="277" height="354" title="image" alt="image" src="/assets/images/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/83/94/metablogapi/4628.image_thumb_030D2DE3.png" border="0" />](/assets/images/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/83/94/metablogapi/7750.image_7D328A49.png)

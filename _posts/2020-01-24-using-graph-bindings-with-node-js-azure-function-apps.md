@@ -1,4 +1,3 @@
-
 Using Graph Bindings with Node.JS Azure
 
 # Draft

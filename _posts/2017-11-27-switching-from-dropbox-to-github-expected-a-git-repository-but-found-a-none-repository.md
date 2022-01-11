@@ -1,5 +1,3 @@
-
-
 If you have dropbox selected for a deployment option and want to switch to github you may get the error message:&nbsp; Expected a &#8216;Git&#8217; repository but found a &#8216;None&#8217; repository at path &#8216;D:\\home\\site\\wwwroot&#8217;.
 
 ## 

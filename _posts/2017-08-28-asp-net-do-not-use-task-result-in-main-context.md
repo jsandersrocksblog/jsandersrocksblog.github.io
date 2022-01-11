@@ -1,5 +1,3 @@
- 
-
 You can guarantee you will deadlock if you have a call similar to this in your code, where CallHttp is a an AsyncTask that awaits a result:
 
 <pre class="code"><p>

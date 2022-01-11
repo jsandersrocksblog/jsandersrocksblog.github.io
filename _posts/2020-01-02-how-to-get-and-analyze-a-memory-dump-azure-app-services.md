@@ -1,5 +1,3 @@
- 
-
 Azure App Services has a way to retrieve and analyze a memory dump of your app right from the portal.&nbsp; This is a quick reference on how to use this feature
 
 # Steps

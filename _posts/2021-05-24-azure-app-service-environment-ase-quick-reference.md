@@ -1,5 +1,3 @@
-
-
 There are many docs in the ASE official documentation now. I usually find ASE documents a little scattered on the Web and each time I’m on an ASE case, I spend a few minutes looking for the right doc. To avoid this, I was collating the links for my own reference and I thought it might be helpful to you too. I’ve put them scenario wise you don’t have to go through everything every time. I hope this helps!
 
 **Author: Madhura Bharadwaj**

@@ -1,5 +1,3 @@
- 
-
 When updating your Azure Function App storage account keys, if you specify the wrong key… You could get an error including the text:
 
 Failed to update web app settings:&nbsp; Bad Request&nbsp; The storage URI is invalid ExtendedCode:04203 No valid combination of account information found

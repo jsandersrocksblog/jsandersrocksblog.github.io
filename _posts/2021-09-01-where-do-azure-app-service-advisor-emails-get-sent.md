@@ -1,5 +1,3 @@
- 
-
 Azure App Service Advisor will send notification emails and add notifications to the portal when your app is not healthy.&nbsp; Where does the email notification system retrieve a list of recipients?
 
 ## Answer

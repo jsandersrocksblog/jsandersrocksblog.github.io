@@ -1,5 +1,3 @@
-
-
 After publishing the web app to Azure Cloud Services from Visual Studio 2017, it would not run and returned a 500 error.  Turning off custom error messages I was getting this error: _Could not find a part of the path &#8216;E:\sitesroot\0\bin\roslyn\csc.exe&#8217;._ In your solution explorer for your project, right click on the ‘References’ section for your WebRole and select ‘Manage NuGet Packages…’ _full stack:_ 
 
 <pre>[DirectoryNotFoundException: Could not find a part of the path 'E:\sitesroot\0\bin\roslyn\csc.exe'.]

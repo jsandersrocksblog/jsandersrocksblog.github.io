@@ -1,5 +1,3 @@
-
-
 You might notice that when you add files like images (.png .bmp) to your project that these are not updating to your Web App (Azure Web App or on premise).
 
 ## Cause

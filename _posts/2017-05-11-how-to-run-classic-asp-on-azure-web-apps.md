@@ -1,5 +1,3 @@
-
-
 We mention you can use ASP on Azure Web Apps but documentation is a bit scarce.&nbsp; This walkthrough will show how to deploy a simple vbscript ASP page to a Azure Web App.
 
 ## Steps

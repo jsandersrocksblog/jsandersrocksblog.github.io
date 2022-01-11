@@ -1,5 +1,3 @@
- 
-
 EasyAuth (<a href="https://cgillum.tech/category/easy-auth/" target="_blank" rel="noopener noreferrer">https://cgillum.tech/category/easy-auth/</a>)&nbsp; generates an internal access token ‘x-ms-token-aad-access-token‘.&nbsp; By default this token is an internal only format that you can’t use as a bearer token (it does not even look like one).&nbsp; You can utilize an unpublished (until now) feature to authenticate against another resource and this will result in a bearer token being generated that you can use to access that resource.&nbsp; The concept is that you can add additional login parameters that authenticate you against the object you wish to get an access token for.&nbsp; So you log into that resource and an access token is generated for you by Easy Auth.&nbsp; Special thanks to Connor McMahon who helped me get this all figured out!
 
 

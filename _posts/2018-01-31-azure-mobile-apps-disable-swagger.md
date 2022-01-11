@@ -1,5 +1,3 @@
-
-
 The Azure Mobile Apps quickstarts can support Swagger.&nbsp; What if you want to disable this?&nbsp; This walkthrough shows you where the Swagger routes come from and how to remove them
 
 ## Walkthrough – Node.js backend

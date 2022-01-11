@@ -1,5 +1,3 @@
-
-
 PowerShell can and does use System.Net classes to communicate over the wire.&nbsp; This example will cover capturing a System.Net trace of the Azure PowerShell _Publish-AzureWebsiteProject_ command-let.
 
 ## 

@@ -1,5 +1,3 @@
- 
-
 Azure guarantees 99.95% uptime or better, but sometimes your application or database misbehaves due to something you have done (written bad code) or in the rare event there is a problem in a region.&nbsp; There was not a good end to end sample of setting up an Azure App Service that was deployed to multiple regions to be responsive and that utilized auto failover if a resource or data center went down so I created this one!&nbsp; This will illustrate how you can quickly and easily lay the foundation for a Geo-Distributed application in Azure built on Azure App Service, Azure Traffic Manger and Azure SQL.
 
 # Architecture

@@ -1,5 +1,3 @@
- 
-
 I had trouble getting Visual Studio Code to install by simple clicking on the package from <https://code.visualstudio.com>.&nbsp; Whether I tried do download or use Ubuntu Software to install this I got an error: status code 400: Bad Request.
 
 # Solution

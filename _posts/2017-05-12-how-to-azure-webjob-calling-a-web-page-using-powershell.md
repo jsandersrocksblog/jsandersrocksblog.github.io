@@ -1,5 +1,3 @@
-
-
 Just a quicky post to get you started on how to use CRON expressions and Powershell to call a web page from a WebJob.&nbsp; There are many different ways to use Azure WebJobs and this is using a Powershell script to call an endpoint and scheduling this using CRON.
 
 ## Steps

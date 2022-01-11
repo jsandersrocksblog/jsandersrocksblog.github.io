@@ -1,5 +1,3 @@
-
-
 I ran into an interesting error that I had to debunk where a customer thought with HTTP/2 on Windows Server 2016 which has IIS 10 installed, that this caused the error above.&nbsp; That was not true!
 
 ## Analysis

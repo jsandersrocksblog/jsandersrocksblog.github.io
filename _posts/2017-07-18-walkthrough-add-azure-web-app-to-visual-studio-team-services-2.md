@@ -1,6 +1,3 @@
-
- 
-
 In this walkthrough I will show&nbsp; you how to use Visual Studio Team Services with an existing Azure App Service project (specifically an Azure Web App).&nbsp; We will add a task to update/create the project database from a DACPAC file and enable CI (Continuous Integration).
 
 # Sign up for Visual Studio Team Services&nbsp; 

@@ -1,5 +1,3 @@
-
-
 When you deploy an Azure Active Directory application that was working great locally you may get the following error when logging in:&nbsp; AADSTS50011: The reply address &#8216;http://<yourwebapp>.azurewebsites.net/signin-oidc&#8217; does not match the reply addresses configured for the application: &#8216;c8a23e63-b4e3-4d10-9cf8-0fca55207424&#8217;. More details: not specified
 
 This error would be specific to Azure App Services authentication (Easy Auth)

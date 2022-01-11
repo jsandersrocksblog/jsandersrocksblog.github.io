@@ -1,4 +1,3 @@
-  
 Knowing the server type and what it is running can be information that an attacker may leverage.  This article explains how you can remove the subject headers.  
 Azure Mobile Apps are really Azure Web Apps.  You can configure the headers by altering the Web.Config just like you would with a standard ASP.Net application!
 

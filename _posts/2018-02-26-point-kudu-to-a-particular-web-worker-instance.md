@@ -1,5 +1,3 @@
- 
-
 Kudu is the .SCM interface for Azure App Services.&nbsp; If you are running more than one instance of Azure App Services (for instance you have scaled out to 4 instances) and you need to get to the Kudu console to do something like kill a process, profile an instance or get a dump of a particular instance… you can use this technique.&nbsp; This technique does not rely on ARRAffinity being set for the Application because that setting does not affect the Kudu site.&nbsp; 
 
 # Steps (with Instance Detective Extension)

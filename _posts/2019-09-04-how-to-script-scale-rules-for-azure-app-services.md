@@ -1,5 +1,3 @@
- 
-
 In this example I am showing how you can script setting the properties correctly in script to set a Scale operation based on some values you want.
 
 # Steps

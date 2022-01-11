@@ -1,5 +1,3 @@
-
-
 Sometimes you need or want to force HTTPS for Azure App Services (Azure Web App, Azure Mobile App, Azure Function App, etc…).&nbsp; In the past you could do this with a web.config change.
 
 ## Solution

@@ -1,5 +1,3 @@
- 
-
 In this scenario, you want to provide your customer with a secured URL to download a file from Azure Storage.&nbsp; You can do this programmatically of course but another option is to use the Azure Storage Explorer to create a Shared Access Signature (SAS) for your customer.&nbsp; Then provide the URL necessary with the SAS so that they can download the resource securely over HTTPS.
 
 It is important to note, that the SAS is the key into this file (or container) and like any key…&nbsp; You need to carefully consider how you use and/or distribute this information!

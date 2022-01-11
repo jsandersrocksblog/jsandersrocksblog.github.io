@@ -1,5 +1,3 @@
- 
-
 I’m a dork so… quick blog here for those of you that fall into this too.&nbsp; I created a new Azure App Service Environment (ASE) V3 and tried to add an App Service Plan and Web App to it and go the error “The template parameter ‘privateZoneName’ is not found”
 
 

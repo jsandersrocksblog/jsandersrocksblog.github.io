@@ -1,5 +1,3 @@
- 
-
 Application Insights is a powerful tool to visualize what is happening with your application.&nbsp; This quick query shows how to chart when instances are added and removed
 
 # Walkthrough

@@ -1,5 +1,3 @@
- 
-
 There are a couple of articles available but they are out of date.&nbsp; This is a step by step walk through of using OpenID (Auth0) with Azure App Services.
 
 ## Create App Service

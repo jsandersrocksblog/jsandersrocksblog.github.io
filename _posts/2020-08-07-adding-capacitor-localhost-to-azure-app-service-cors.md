@@ -1,5 +1,3 @@
- 
-
 Again… just a quick post.&nbsp; The UI will not validate and allow you to add capacitor://localhost to the CORS settings in Azure App Services.&nbsp; Here are two ways to work around it.
 
 ## Use the CLI

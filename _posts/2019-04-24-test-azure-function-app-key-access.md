@@ -1,5 +1,3 @@
- 
-
 You can test the key that Azure Functions uses when communicating to it’s associated storage account.&nbsp; This is a great troubleshooting step if you get errors that the function is not accessible.
 
 

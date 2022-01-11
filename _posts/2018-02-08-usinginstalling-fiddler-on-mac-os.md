@@ -1,5 +1,3 @@
-
-
 I could not find a good walkthrough so here is one for you.&nbsp; Disclaimer:&nbsp; This is on the latest OS and Latest version of Fiddler Beta
 
 ## Steps

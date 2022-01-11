@@ -1,5 +1,3 @@
- 
-
 This is a super simple walkthrough to show how to use Git and push your app to Azure Web Apps for Containers.&nbsp; It will not persist your Git repo but is a super quick way to show how this is done and perhaps help you if you are having troubles getting your app configured!
 
 # 

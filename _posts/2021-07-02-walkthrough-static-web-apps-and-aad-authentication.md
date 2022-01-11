@@ -1,5 +1,3 @@
- 
-
 This is a step by step walkthrough of how to add AAD Authentication to Static Web Apps.&nbsp; This is based on these documents: 
 
 [Quickstart: Building your first static web app with Azure Static Web Apps using the Azure portal | Microsoft Docs](https://docs.microsoft.com/en-us/azure/static-web-apps/get-started-portal?tabs=vanilla-javascript)

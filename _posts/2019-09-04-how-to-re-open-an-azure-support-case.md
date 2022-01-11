@@ -1,5 +1,3 @@
- 
-
 If your case is closed and for some reason you problem is not resolved or re-occurs you can follow these instructions to view your past cases.&nbsp; Once in that view, you can send a message and this will re-open the issue.
 
 # Steps
