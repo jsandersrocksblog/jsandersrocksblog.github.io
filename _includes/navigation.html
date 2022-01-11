@@ -1,11 +1,14 @@
 <nav>
-    <nav>
-      <ul class="nav navbar-nav">
+  <div class="navbar-collapse collapse" >
+    <!-- Main Navigation -->
+    <div class="pull-right">
+      <ul class="nav navbar-nav" style="background: #f2f2f2;">
         {% for item in site.data.navigation %}
         <li>  
         <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
         </li>
         {% endfor %}
       </ul>
-    </nav>
+    </div>
+    </div>
 </nav>
