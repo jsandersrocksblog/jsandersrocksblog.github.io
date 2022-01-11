@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
   
 defaults:
   - scope:
@@ -46,7 +47,8 @@ defaults:
       layout: "home"
 
 
-
+paginate: 12
+paginate_path: /page:num/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
