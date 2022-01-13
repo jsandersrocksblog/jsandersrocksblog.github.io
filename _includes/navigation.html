@@ -1,28 +1,16 @@
-<!-- navbar navbar-inverse navbar-static-top used for static hamburger menu -->
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-  <div class="container">
-  <!-- container gives content bootstrap alignment -->
-  <div class="navbar-header">
-  <!-- navbar-header gives header -->
-  <!-- navbar-toggle collapsed for hide the content -->
-  <button type="button" class="navbar-toggle collapsed"
-  data-toggle="collapse" data-target="#menu">
-  <!-- sr-only gives feature, hides elements from all devices except screen -->
-  <span class="sr-only">Hamburger Menu</span> <span class="icon-bar"></span>
-  <span class="icon-bar"></span> <span class="icon-bar"></span>
-  <!-- icon-bar creates structure like triple equal -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">jsandersrocksblog</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
   </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      {% for item in site.data.navigation %}
+      <li class="nav-item">  
+      <a class="nav-link" href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse" id="menu">
-  <!--nav navbar-nav used to sets the navigation bar size( either increase or reduce) -->
-  <ul class="nav navbar-nav">
-    {% for item in site.data.navigation %}
-        <li>  
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-        </li>
-        {% endfor %}
-  </ul>
-  </div>
-  </div>
-  </nav>
+</nav>
