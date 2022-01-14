@@ -35,8 +35,9 @@
        
     <!-- HEADER -->
     <div id="header_wrap" class="container">
-      
+      {% include navigation.html %}    
       <header class="inner">
+        
           {% if site.github.Disabled_is_project_page %}
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
@@ -60,7 +61,8 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="container">
       
-        {% include navigation.html %}    
+        
+        
         {{ content }}
       
     </div>

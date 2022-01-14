@@ -38,13 +38,14 @@ plugins:
 defaults:
   - scope:
       path: ""
-      type: "posters"
+      type: "posts"
     values:
-      layout: "poster"
+      layout: "post"
   - scope:
       path: ""
     values:
       layout: "home"
+      
 
 
 paginate: 12

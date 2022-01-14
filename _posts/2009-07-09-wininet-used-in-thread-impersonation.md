@@ -1,40 +1,21 @@
- <font color="#000000" size="2"></p> 
-
-<p>
   First and foremost, this is NOT supported for reasons stated in this article: <a href="http://support.microsoft.com/default.aspx/kb/238425">http://support.microsoft.com/default.aspx/kb/238425</a>. Primarily, problems occur because of information that is stored in the HKEY_CURRENT_USERS registry key and because of threading concerns.&nbsp; Furthermore, due to security implications and the design of WinInet in Windows 7, this absolutely will not work in Windows 7.&nbsp; Finally, in Vista, there is a Low IL cache as well as the normal (Medium IL) cache so this sample is ineffective at best.&nbsp; This blog entry is mearly an excercise to help you understand how the Registry works with thread impersonation as I discovered when working on a WinInet problem.
-</p>
 
-<p>
   That said, if you have a service running in the Local System Account, you might be able to work around some of the problems by ensuring the registry is loaded with the currently logged on user&#8217;s registry information.&nbsp; If the currently logged on user has used the browser, most information should be populated in that user&#8217;s registry.
-</p>
+ 
+   If running with UAC enabled and you attempt to enumerate the cache while running under the Local System account you will fail and GetLastError will return ERROR_INVALID_PARAMETER. This error is thrown because internally there are some registry settings missing that WinInet expects to be there for every user (again, WinInet is not designed, tested or supported when running under the System Account or when using thread impersonation).&nbsp; I found however if you use thread impersonation and load the registry HKCU for the currently logged on user, you can access the cache.&nbsp; I do not know if this will work in all scenarios and in future WinInet releases, but I was able to get it to work for me.&nbsp; I used PsExec from Sysinternals to run my tests.
 
-<p>
-  If running with UAC enabled and you attempt to enumerate the cache while running under the Local System account you will fail and GetLastError will return ERROR_INVALID_PARAMETER. This error is thrown because internally there are some registry settings missing that WinInet expects to be there for every user (again, WinInet is not designed, tested or supported when running under the System Account or when using thread impersonation).&nbsp; I found however if you use thread impersonation and load the registry HKCU for the currently logged on user, you can access the cache.&nbsp; I do not know if this will work in all scenarios and in future WinInet releases, but I was able to get it to work for me.&nbsp; I used PsExec from Sysinternals to run my tests.
-</p>
-
-<p>
   <strong>Details<br /></strong>I downloaded and installed PsExec from <a href="http://technet.microsoft.com/en-us/sysinternals/bb896649.aspx" mce_href="http://technet.microsoft.com/en-us/sysinternals/bb896649.aspx">http://technet.microsoft.com/en-us/sysinternals/bb896649.aspx</a>
-</p>
+ 
+   I created a new C++ Console application in Visual Studio and added code to:<br />1. Get the Currently Logged on user token in the SessionID from where this program was launched under the SYSTEM account using WTSQueryUserToken<br />2. Impersonate this user using ImpersonateLoggedOnUser<br />3. Load the impersonated HKU registry in HKCU by using RegDisablePredefinedCache<br />4. Iterate through the IE cache using FindFirstUrlCacheEntry and FindNextUrlCacheEntry<br />5. I added code that would also show the cache if the WTSQueryUserToken failed.&nbsp; This will fail if you are running the program from the command line (no PsExec).&nbsp; This allows you to see the case running in the context of the current user.&nbsp;
+ 
+   I then added the WinInet.lib and Wtsapi32.lib to the linker input files and built the project.
+ 
+   I then tested the code with PsExec using: PsExec –i –s <<full path and program name>>.&nbsp; I opened a command prompt with Administrator permissions to run the tests.&nbsp; An interesting use of PsExec allows you to see the cache when running as an Low IL process:&nbsp; PsExec –l <<full path and program name>>.&nbsp; Note that this is a different set of values because the Low IL cache is in a different location then the Medium (normal) IL cache.<br />For details on protected mode cache see: <a href="http://blogs.msdn.com/ie/archive/2006/02/09/528963.aspx" mce_href="http://blogs.msdn.com/ie/archive/2006/02/09/528963.aspx">http://blogs.msdn.com/ie/archive/2006/02/09/528963.aspx</a>
+ 
+   Here is the code for your enjoyment.&nbsp; Of course you would need to add your code to test the success of calls, trap exceptions etc&#8230;&nbsp; But it should get you started:
 
-<p>
-  I created a new C++ Console application in Visual Studio and added code to:<br />1. Get the Currently Logged on user token in the SessionID from where this program was launched under the SYSTEM account using WTSQueryUserToken<br />2. Impersonate this user using ImpersonateLoggedOnUser<br />3. Load the impersonated HKU registry in HKCU by using RegDisablePredefinedCache<br />4. Iterate through the IE cache using FindFirstUrlCacheEntry and FindNextUrlCacheEntry<br />5. I added code that would also show the cache if the WTSQueryUserToken failed.&nbsp; This will fail if you are running the program from the command line (no PsExec).&nbsp; This allows you to see the case running in the context of the current user.&nbsp;
-</p>
-
-<p>
-  I then added the WinInet.lib and Wtsapi32.lib to the linker input files and built the project.
-</p>
-
-<p>
-  I then tested the code with PsExec using: PsExec –i –s <<full path and program name>>.&nbsp; I opened a command prompt with Administrator permissions to run the tests.&nbsp; An interesting use of PsExec allows you to see the cache when running as an Low IL process:&nbsp; PsExec –l <<full path and program name>>.&nbsp; Note that this is a different set of values because the Low IL cache is in a different location then the Medium (normal) IL cache.<br />For details on protected mode cache see: <a href="http://blogs.msdn.com/ie/archive/2006/02/09/528963.aspx" mce_href="http://blogs.msdn.com/ie/archive/2006/02/09/528963.aspx">http://blogs.msdn.com/ie/archive/2006/02/09/528963.aspx</a>
-</p>
-
-<p>
-  Here is the code for your enjoyment.&nbsp; Of course you would need to add your code to test the success of calls, trap exceptions etc&#8230;&nbsp; But it should get you started:
-</p>
-
-<p>
   <strong>C++ code listing for sample (<a href="javascript:CopyCode('WinInetImpersonate1');">Copy Code</a>):</strong>
-</p>
+
 
 <div style="background-color: #e0e0e0" id="WinInetImpersonate1">
   <p>
